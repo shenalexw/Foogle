@@ -1,0 +1,78 @@
+/*Apply to Everyting*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+/*navigation bar*/
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+
+/*body*/
+.content {
+    padding-top: 125px;
+    text-align: center;
+}
+
+.search input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 40%;
+}
+
+.two_butt button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-color: white;
+    background-color: light;
+}
+
+.two_butt button:hover{
+    background-color: lightcyan;
+}
+
+/*Footer*/
+footer {
+    position: absolute;
+    background-color: lightgrey;
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+footer li {
+    float: left;
+}
+  
+footer li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}

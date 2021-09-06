@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -24,6 +25,7 @@ nav li a {
     display: block;
     color: black;
     text-align: center;
+    font-size: 14px;
     padding: 20px 14px;
     text-decoration: none;
 }
@@ -36,14 +38,19 @@ nav li a {
 
 .search input{
     padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
+    font-size: 20px;
+    border: 0.5px solid grey;
     width: 40%;
 }
 
+.search span{
+    font-size: 20px;
+}
+
+
 .two_butt button{
     margin-top: 20px;
-    padding: 10px 50px;
+    padding: 10px 30px;
     cursor: pointer;
     border-color: white;
     background-color: light;
@@ -58,6 +65,7 @@ footer {
     position: absolute;
     background-color: lightgrey;
     bottom: 0;
+    font-size: 14px;
     width: 100%;
 }
 footer ul {

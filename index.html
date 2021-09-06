@@ -4,14 +4,16 @@
 <title>Google Homepage</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <body>
 
 <nav>
     <ul>
-        <li><a href="#about">About</a></li>
+        <li style="margin-left: 10px"><a href="#about">About</a></li>
         <li><a href="#store">Store</a></li>
-        <li style="float:right"><a href="#pfp">pfp</a></li>
-        <li style="float:right"><a href="#grid">grid</a></li>
+        <li style="float:right; margin-right: 10px"><a href="#pfp"><span class="material-icons">account_circle</span></a></li>
+        <li style="float:right"><a href="#grid"><span class="material-icons">apps</span></a></li>
         <li style="float:right"><a href="#gmail">gmail</a></li>
         <li style="float:right"><a href="#images">Images</a></li>
     </ul>
@@ -21,12 +23,14 @@
     <img src = "imgs/foogle.png">
     <form>
         <div class = "search">
+            <span class="material-icons">search</span>
             <input type="search" id="gsearch" name="gsearch">
+            <span class="material-icons">settings_voice</span>
         </div>
 
         <div class = "two_butt">
-            <button style = "margin-right: 10px" type="submit">Google Search</button>
-            <button style = "margin-left: 10px" type="submit">I'm Feeling Lucky!</button>
+            <button style = "margin-right: 5px" type="submit">Google Search</button>
+            <button style = "margin-left: 5px" type="submit">I'm Feeling Lucky!</button>
         </div>
     </form>
 

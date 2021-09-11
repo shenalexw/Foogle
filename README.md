@@ -13,6 +13,8 @@ The Odin Project: Google Homepage Assignment
 
 Replicated the google homepage using HTML and CSS.
 
+(Desktop Only)
+
 
 
 ## How To Use

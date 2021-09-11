@@ -19,7 +19,7 @@ Replicated the google homepage using HTML and CSS.
 
 Live Preview: [Foogle](https://shenalexw.github.io/Foogle)
 
-
+---
 ## References
 
 - [The Odin Project: Google Homepage](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)

@@ -7,7 +7,6 @@
 - [Author(s)](#author-info)
 
 
-
 ## Abstract
 The Odin Project: Google Homepage Assignment
 

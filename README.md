@@ -11,12 +11,10 @@
 ## Abstract
 The Odin Project: Google Homepage Assignment
 
-Replicated the google homepage using HTML and CSS.
+Replicated the google homepage using HTML and CSS. Works only in desktop mode.
 
 ## In-Progress
 Having the search bar go into another page and display the search website of google
-
-(Desktop Only)
 
 ## How To Use
 

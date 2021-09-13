@@ -32,32 +32,56 @@ nav li a {
 
 /*body*/
 .content {
-    padding-top: 125px;
+    margin-top: 10%;
     text-align: center;
 }
 
+.content img{
+    width: 300px;
+}
+
+/*search bar*/
+.search {
+    border-color: black;
+    border:1px solid lightgrey;
+    border-radius: 50px;
+    width: 600px;
+    margin: auto;
+}
+
+.search:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
 .search input{
-    padding: 10px;
-    font-size: 20px;
-    border: 0.5px solid grey;
-    width: 40%;
+    display: inline-block;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    width: 500px;
+    margin-bottom: 2px;
+}
+
+.search input:focus{
+    outline-color: white;
 }
 
 .search span{
+    display: inline-block;
+    padding-top: 12px;
     font-size: 20px;
 }
 
-
 .two_butt button{
     margin-top: 20px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     cursor: pointer;
-    border-color: white;
     background-color: light;
+    border: 1px solid transparent;
 }
 
 .two_butt button:hover{
-    background-color: lightcyan;
+    border-color: lightgrey;
+    border: auto;
 }
 
 /*Footer*/

@@ -46,19 +46,20 @@ nav li a {
     border:1px solid lightgrey;
     border-radius: 50px;
     width: 600px;
+    height: 60px;
     margin: auto;
 }
 
 .search:hover{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
+
 .search input{
-    display: inline-block;
-    padding: 16px;
-    font-size: 15px;
+    margin-top:6px;
+    padding: 14px;
+    font-size: 14px;
     border: none;
     width: 500px;
-    margin-bottom: 2px;
 }
 
 .search input:focus{
@@ -66,8 +67,7 @@ nav li a {
 }
 
 .search span{
-    display: inline-block;
-    padding-top: 12px;
+    vertical-align: middle;
     font-size: 20px;
 }
 
@@ -107,4 +107,11 @@ footer li a {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+}
+
+/* search.html */
+.small_logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 120px;
 }

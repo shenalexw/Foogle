@@ -6,9 +6,16 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
+<style>
+    .search:hover{
+    box-shadow: none;
+}
+
+</style>
 <body>
 
-<nav>
+<nav style = "margin-top: 20px;">
     <ul>
         <li>
             <a href="index.html">
@@ -18,22 +25,40 @@
 
         <li>
             <form action = "search.html">
-                <div class = "search">
-                    <input type="search" id="gsearch" name="gsearch">
-                    <span class="material-icons">settings_voice</span>
-                    <span class="material-icons">search</span>
+                <div style = "margin-top: 10px;"class = "search">
+                    <input style = "margin-left: 15px; border-right:solid lightgrey 1px;" type="search" id="gsearch" name="gsearch">
+                    <span style = "padding-left: 5px;" class="material-icons">settings_voice</span>
+                    <span style = "padding-left: 10px;" class="material-icons">search</span>
                 </div>
         
             </form>
         </li>
         
         <li style="float:right; margin-right: 10px"><a href="#pfp"><span class="material-icons">account_circle</span></a></li>
-        <li style="float:right"><a href="#grid"><span class="material-icons">apps</span></a></li>
-        <li style="float:right"><a href="#gmail">gmail</a></li>
-        <li style="float:right"><a href="#images">Images</a></li>
+        <li style="float:right;"><a href="#grid"><span class="material-icons">apps</span></a></li>
+        <li style="float:right;"><a href="#cog"><span class="material-icons">settings</span></a></li>
     </ul>
 </nav>
 
+<div class = "under_nav">
+    <ul>
+        <li style="margin-left: 150px; border-bottom: solid 3px blue;"><a href="#search"><span class="material-icons">search</span>All</a></li>
+        <li><a href="#about"><span class="material-icons">image</span>Images</a></li>
+        <li><a href="#news"><span class="material-icons">article</span>News</a></li>
+        <li><a href="#videos"><span class="material-icons">smart_display</span>Videos</a></li>
+        <li><a href="#books"><span class="material-icons">book</span>Books</a></li>
+        <li><a href="#more"><span class="material-icons">more_vert</span>More</a></li>
+        <li><a class = "tool_button" href="#tools">Tools</a></li>
+    </ul>
+</div>
+
+<div class = "find_amount">
+    About 8,200,000,000 results (0.52 seconds) 
+</div>
+
+<div class = "search_results">
+
+</div>
 
 
 

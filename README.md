@@ -11,20 +11,27 @@
 ## Abstract
 The Odin Project: Google Homepage Assignment
 
-Replicated the google homepage using HTML and CSS. Works only in desktop mode.
+Replicated the google search and home page using HTML and CSS. 
+
+Works only in desktop mode.
 
 ## In-Progress
-Having the search bar go into another page and display the search website of google
+Bottom part of search.html to navigate to more search results.
 
 ## How To Use
 
 Live Preview: [Foogle](https://shenalexw.github.io/Foogle)
 
+To access the search page, please click on google search or I'm feeling lucky.
+
+To navigate back to the home page, click the Foogle logo at the top left.
+
 ## References
 
-- [The Odin Project: Google Homepage](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
+- [The Odin Project: Google Homepage](google.md)
 - [CSS Navigation Bar](https://www.w3schools.com/css/css_navbar.asp)
 - [Google Material Icons](https://fonts.google.com/icons)
+- [Lipsum Generator: Lorem Ipsum - All the facts](https://www.lipsum.com/)
 
 
 

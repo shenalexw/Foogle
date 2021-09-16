@@ -151,8 +151,60 @@ footer li a {
 
 .find_amount{
     color: grey;
-    padding: 20px;
+    padding-top: 20px;
     width: 50%;
     margin-left: 150px;
     vertical-align: middle;
+}
+
+.search_results{
+    margin-left: 150px;
+    margin-top: 25px;
+    width: 800px;
+}
+
+.search_results a{
+    text-decoration: none;
+}
+
+.search_results a:active{
+    color: black;
+}
+
+.search_results a:visited{
+    color: black;
+}
+
+.search_results a p span{
+    color: grey; 
+    font-size: 20px; 
+    vertical-align: middle;
+}
+
+.search_results a p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.search_results a h4{
+    font-size: 18px;
+    color:darkblue;
+}
+
+.search_results a h4:hover{
+    text-decoration: underline;
+}
+
+.search_results p {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.location{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.location p {
+    margin-left: 150px;
 }

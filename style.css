@@ -201,10 +201,27 @@ footer li a {
 }
 
 .location{
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .location p {
+    display: inline-block;
+}
+
+.location span{
     margin-left: 150px;
+    color: darkslategray;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.related_searches{
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
+.related_searches a{
+    background-color: darkslategray;
+    padding: 20px 100px;
 }

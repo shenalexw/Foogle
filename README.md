@@ -15,9 +15,6 @@ Replicated the google search and home page using HTML and CSS.
 
 Works only in desktop mode.
 
-## In-Progress
-Bottom part of search.html to navigate to more search results.
-
 ## How To Use
 
 Live Preview: [Foogle](https://shenalexw.github.io/Foogle)
